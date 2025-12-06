@@ -1,9 +1,9 @@
-WIP
-Estudando conceitos de DDD, CQRS e Mediatr
-Projetos para fins de estudo.
-Utilizando:
-.net 8
-Asp.net MVC
-DDD
-CQRS
-Mediatr
+<h1>WIP</h1>h1> <br>
+Estudando conceitos de DDD, CQRS e Mediatr<br>
+Projetos para fins de estudo.<br>
+Utilizando:<br>
+.net 8<br>
+Asp.net MVC<br>
+DDD<br>
+CQRS<br>
+Mediatr<br>

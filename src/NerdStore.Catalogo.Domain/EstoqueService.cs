@@ -23,7 +23,7 @@ namespace NerdStore.Catalogo.Domain
 
             produto.DebitarEstoque(quantidade);
 
-            // TODO: Parametrizar a quantidade de estoque baixo
+          
             if(produto.QuantidadeEstoque < 10)
             {
                 await _bus.PublicarEvento(new ProdutoAbaixoEstoqueEvent(produto.Id, produto.QuantidadeEstoque));
@@ -38,7 +38,7 @@ namespace NerdStore.Catalogo.Domain
             var produto = await _produtoRepository.ObterPorId(produtoId);
 
             if (produto == null) return false;
-
+            produto.ReporEstoque(quantidade);
             _produtoRepository.Atualizar(produto);
             return await _produtoRepository.UnitOfWork.Commit();
         }

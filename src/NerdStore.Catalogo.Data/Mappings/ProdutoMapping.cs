@@ -16,6 +16,10 @@ namespace NerdStore.Catalogo.Data.Mappings
                 .IsRequired()
                 .HasColumnType("varchar(250)");
 
+            builder.Property(c => c.Valor)
+               .IsRequired()
+               .HasColumnType("decimal(6,2)");
+
             builder.Property(c => c.Descricao)
                 .IsRequired()
                 .HasColumnType("varchar(500)");

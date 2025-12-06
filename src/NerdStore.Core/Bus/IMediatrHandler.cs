@@ -1,6 +1,4 @@
-﻿
-
-using NerdStore.Core.Messages;
+﻿using NerdStore.Core.Messages;
 
 namespace NerdStore.Core.Bus;
 

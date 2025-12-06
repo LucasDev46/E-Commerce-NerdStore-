@@ -1,6 +1,7 @@
 ﻿using MediatR;
 using NerdStore.Core.Messages;
 
+
 namespace NerdStore.Core.Bus;
 public class MediatrHandler : IMediatrHandler
     {
@@ -16,4 +17,3 @@ public class MediatrHandler : IMediatrHandler
             await _mediator.Publish(evento);
         }
     }
-}

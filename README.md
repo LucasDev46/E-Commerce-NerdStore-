@@ -1,4 +1,4 @@
-<h1>WIP</h1>h1> <br>
+<h1>WIP</h1> <br>
 Estudando conceitos de DDD, CQRS e Mediatr<br>
 Projetos para fins de estudo.<br>
 Utilizando:<br>
